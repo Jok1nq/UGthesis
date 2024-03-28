@@ -1,0 +1,59 @@
+[0] Config.pm:308> INFO - This is Biber 2.20
+[0] Config.pm:311> INFO - Logfile is 'zjuthesis.blg'
+[127] biber-MSWIN64:340> INFO - === 
+[168] Biber.pm:420> INFO - Reading 'zjuthesis.bcf'
+[344] Biber.pm:994> INFO - Found 0 citekeys in bib section 0
+[344] Biber.pm:994> INFO - Found 1 citekeys in bib section 1
+[344] Biber.pm:994> INFO - Found 0 citekeys in bib section 0
+[345] Biber.pm:994> INFO - Found 0 citekeys in bib section 2
+[345] Biber.pm:994> INFO - Found 0 citekeys in bib section 0
+[346] Biber.pm:994> INFO - Found 1 citekeys in bib section 3
+[346] Biber.pm:994> INFO - Found 0 citekeys in bib section 0
+[346] Biber.pm:994> INFO - Found 1 citekeys in bib section 4
+[347] Biber.pm:994> INFO - Found 0 citekeys in bib section 0
+[348] Biber.pm:994> INFO - Found 39 citekeys in bib section 5
+[349] Biber.pm:994> INFO - Found 0 citekeys in bib section 0
+[395] Biber.pm:4463> INFO - Processing section 1
+[409] Biber.pm:4654> INFO - Looking for bibtex file 'body/ref.bib' for section 1
+[476] bibtex.pm:1713> INFO - LaTeX decoding ...
+[648] bibtex.pm:1519> INFO - Found BibTeX data source 'body/ref.bib'
+[666] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[667] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[667] Biber.pm:4283> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'en-US'
+[667] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
+[668] Biber.pm:4463> INFO - Processing section 3
+[669] Biber.pm:4654> INFO - Looking for bibtex file 'body/ref.bib' for section 3
+[703] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[704] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[704] Biber.pm:4283> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'en-US'
+[704] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
+[705] Biber.pm:4463> INFO - Processing section 4
+[706] Biber.pm:4654> INFO - Looking for bibtex file 'body/ref.bib' for section 4
+[742] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[742] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[743] Biber.pm:4283> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'en-US'
+[743] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
+[744] Biber.pm:4463> INFO - Processing section 5
+[744] Biber.pm:4654> INFO - Looking for bibtex file 'body/ref.bib' for section 5
+[1457] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1457] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1458] Biber.pm:4283> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'en-US'
+[1458] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
+[1490] bbl.pm:676> INFO - Writing 'zjuthesis.bbl' with encoding 'UTF-8'
+[1589] bbl.pm:779> INFO - Output to zjuthesis.bbl
+[1590] Biber.pm:131> WARN - I didn't find a database entry for 'zjuthesis' (section 1)
+[1590] Biber.pm:131> WARN - I didn't find a database entry for 'zjuthesisrules' (section 3)
+[1590] Biber.pm:131> WARN - I didn't find a database entry for 'zjuthesisrules' (section 4)
+[1591] Biber.pm:131> WARN - I didn't find a database entry for 'Xu2019' (section 5)
+[1591] Biber.pm:131> WARN - I didn't find a database entry for 'Hu2020' (section 5)
+[1591] Biber.pm:131> WARN - I didn't find a database entry for 'Velickovic2018' (section 5)
+[1592] Biber.pm:131> WARN - I didn't find a database entry for 'Bianchi2020' (section 5)
+[1592] Biber.pm:131> WARN - I didn't find a database entry for 'Kenton2019' (section 5)
+[1592] Biber.pm:131> WARN - I didn't find a database entry for 'Velickovic2019' (section 5)
+[1592] Biber.pm:131> WARN - I didn't find a database entry for 'SharifiNoghabi2019' (section 5)
+[1593] Biber.pm:131> WARN - I didn't find a database entry for 'Nguyen2021' (section 5)
+[1593] Biber.pm:131> WARN - I didn't find a database entry for 'FeyandLenssen2019' (section 5)
+[1593] Biber.pm:131> WARN - I didn't find a database entry for 'Erdos1960' (section 5)
+[1593] Biber.pm:131> WARN - I didn't find a database entry for 'vanderMaaten2008' (section 5)
+[1593] Biber.pm:131> WARN - I didn't find a database entry for 'PeriyasamyThandavan2010' (section 5)
+[1594] Biber.pm:133> INFO - WARNINGS: 15
