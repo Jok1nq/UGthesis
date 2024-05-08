@@ -652,6 +652,7 @@
     <bcf:option datatype="boolean">eprint</bcf:option>
     <bcf:option datatype="boolean">related</bcf:option>
     <bcf:option datatype="boolean">subentry</bcf:option>
+    <bcf:option datatype="boolean">gbnoothers</bcf:option>
     <bcf:option datatype="boolean">citexref</bcf:option>
     <bcf:option datatype="boolean">gbmedium</bcf:option>
     <bcf:option datatype="boolean">gbannote</bcf:option>
@@ -2952,6 +2953,15 @@
   </bcf:bibdata>
   <bcf:section number="1">
     <bcf:citekey order="1" intorder="1">zjuthesis</bcf:citekey>
+  </bcf:section>
+  <!-- SECTION 0 (cont.) -->
+  <bcf:section number="0">
+  </bcf:section>
+  <!-- SECTION 2 -->
+  <bcf:bibdata section="2">
+    <bcf:datasource type="file" datatype="bibtex">body/ref.bib</bcf:datasource>
+  </bcf:bibdata>
+  <bcf:section number="2">
   </bcf:section>
   <!-- SECTION 0 (cont.) -->
   <bcf:section number="0">

@@ -1,11 +1,11 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.3.28)  8 MAY 2024 10:50
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.5.8)  8 MAY 2024 15:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**zjuthesi.tex
+**zjuthesis.tex
 (./zjuthesis.tex
 LaTeX2e <2023-11-01> patch level 1
-L3 programming layer <2024-03-14>
+L3 programming layer <2024-04-11>
 (./zjuthesis.cls
 Document Class: zjuthesis Zhejiang University Thesis and Design Template, Zixua
 n Wang zxwang42@gmail.com
@@ -39,15 +39,15 @@ Package: xifthen 2015/11/05 v1.4.0 Extended ifthen features
 
 (c:/texlive/2024/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count184
-\calc@Bcount=\count185
+\calc@Acount=\count185
+\calc@Bcount=\count186
 \calc@Adimen=\dimen140
 \calc@Bdimen=\dimen141
 \calc@Askip=\skip48
 \calc@Bskip=\skip49
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count186
+\calc@Ccount=\count187
 \calc@Cskip=\skip50
 )
 (c:/texlive/2024/texmf-dist/tex/latex/base/ifthen.sty
@@ -61,13 +61,12 @@ Package: ifmtarg 2018/04/16 v1.2b check for an empty argument
 File: ctexbackend.cfg 2022/07/14 v2.5.10 Backend configuration file (CTEX)
 )
 (c:/texlive/2024/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2024-03-14 L3 programming layer (loader) 
+Package: expl3 2024-04-11 L3 programming layer (loader) 
 
 (c:/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
-File: l3backend-xetex.def 2024-03-14 L3 backend support: XeTeX
-\g__graphics_track_int=\count187
+File: l3backend-xetex.def 2024-04-11 L3 backend support: XeTeX
+\g__graphics_track_int=\count188
 \l__pdf_internal_box=\box51
-\g__pdf_backend_object_int=\count188
 \g__pdf_backend_annotation_int=\count189
 \g__pdf_backend_link_int=\count190
 ))
@@ -192,10 +191,10 @@ Package xtemplate Info: Declaring object type 'xeCJK/punctuation' taking 0
 (c:/texlive/2024/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 Package: xparse 2024-03-14 L3 Experimental document command parser
 )
-Package: fontspec 2024/02/13 v2.9a Font selection for XeLaTeX and LuaLaTeX
+Package: fontspec 2024/05/03 v2.9c Font selection for XeLaTeX and LuaLaTeX
 
 (c:/texlive/2024/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
-Package: fontspec-xetex 2024/02/13 v2.9a Font selection for XeLaTeX and LuaLaTe
+Package: fontspec-xetex 2024/05/03 v2.9c Font selection for XeLaTeX and LuaLaTe
 X
 \l__fontspec_script_int=\count282
 \l__fontspec_language_int=\count283
@@ -248,19 +247,23 @@ File: ctex-cs4size.clo 2022/07/14 v2.5.10 cs4size option (CTEX)
 File: ctex-fontset-windows.def 2022/07/14 v2.5.10 Windows fonts definition (CTE
 X)
 
-Package fontspec Info: Could not resolve font "KaiTi/B" (it probably doesn't
+Package fontspec Info: 
+(fontspec)             Could not resolve font "KaiTi/B" (it probably doesn't
 (fontspec)             exist).
 
 
-Package fontspec Info: Could not resolve font "SimHei/I" (it probably doesn't
+Package fontspec Info: 
+(fontspec)             Could not resolve font "SimHei/I" (it probably doesn't
 (fontspec)             exist).
 
 
-Package fontspec Info: Could not resolve font "SimSun/BI" (it probably doesn't
+Package fontspec Info: 
+(fontspec)             Could not resolve font "SimSun/BI" (it probably doesn't
 (fontspec)             exist).
 
 
-Package fontspec Info: Font family 'SimSun(0)' created for font 'SimSun' with
+Package fontspec Info: 
+(fontspec)             Font family 'SimSun(0)' created for font 'SimSun' with
 (fontspec)             options
 (fontspec)             [Script={CJK},BoldFont={SimHei},ItalicFont={KaiTi}].
 (fontspec)              
@@ -364,7 +367,7 @@ Package: multido 2004/05/17 package wrapper for PSTricks `multido.tex', (HV/RN)
 File: multido.tex 2010/05/14 v1.42 `multido' (tvz,hv)
 )
 (c:/texlive/2024/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
+Package: fancyhdr 2024/04/23 v4.2 Extensive control of page headers and footers
 
 \f@nch@headwidth=\skip65
 \f@nch@O@elh=\skip66
@@ -823,7 +826,7 @@ Package biblatex Info: Trying to load bibliography style 'gb7714-2015'...
 Package biblatex Info: ... file 'gb7714-2015.bbx' found.
 
 (c:/texlive/2024/texmf-dist/tex/latex/biblatex-gb7714-2015/gb7714-2015.bbx
-File: gb7714-2015.bbx 2024/02/10 v1.1pbiblatex bibliography style
+File: gb7714-2015.bbx 2024/03/27 v1.1qbiblatex bibliography style
 Package biblatex Info: Trying to load bibliography style 'numeric-comp'...
 Package biblatex Info: ... file 'numeric-comp.bbx' found.
 
@@ -859,13 +862,17 @@ Package: xstring 2023/08/22 v1.86 String manipulations (CT)
 \c@lanordernum=\count455
 \bibitemindent=\skip139
 \biblabelextend=\skip140
+
+
+Package biblatex Warning: Macro 'byeditor+others' already defined.
+(biblatex)                Using \renewbibmacro.
+
 Package biblatex Info: Delimiter 'finalnamedelim' in context '' already defined
 , overwriting.
 )
 Package biblatex Info: Trying to load citation style 'gb7714-2015'...
 Package biblatex Info: ... file 'gb7714-2015.cbx' found.
-
-(c:/texlive/2024/texmf-dist/tex/latex/biblatex-gb7714-2015/gb7714-2015.cbx
+ (c:/texlive/2024/texmf-dist/tex/latex/biblatex-gb7714-2015/gb7714-2015.cbx
 File: gb7714-2015.cbx a biblatex citation style for GB/T 7714-2015
 Package biblatex Info: Trying to load citation style 'numeric-comp'...
 Package biblatex Info: ... file 'numeric-comp.cbx' found.
@@ -903,7 +910,7 @@ Package biblatex Info: XeTeX detected.
 (biblatex)             Assuming input encoding 'utf8'.
 Package biblatex Info: Document encoding is UTF8 ....
 Package biblatex Info: ... and expl3
-(biblatex)             2024-03-14 L3 programming layer (loader) 
+(biblatex)             2024-04-11 L3 programming layer (loader) 
 (biblatex)             is new enough (at least 2020/04/06),
 (biblatex)             setting 'casechanger=expl3'.
 
@@ -911,7 +918,7 @@ Package biblatex Info: ... and expl3
 Package: blx-case-expl3 2024/03/21 v3.20 expl3 case changing code for biblatex
 ))
 (c:/texlive/2024/texmf-dist/tex/latex/siunitx/siunitx.sty
-Package: siunitx 2024-02-15 v3.3.12 A comprehensive (SI) units package
+Package: siunitx 2024-05-06 v3.3.17 A comprehensive (SI) units package
 \l__siunitx_number_uncert_offset_int=\count461
 \l__siunitx_number_exponent_fixed_int=\count462
 \l__siunitx_number_min_decimal_int=\count463
@@ -1140,7 +1147,8 @@ Package xeCJK Warning: Redefining CJKfamily `zhsong' (SimSun).
 Package xeCJK Warning: Redefining CJKfamily `\CJKrmdefault' (SimSun(0)).
 
 
-Package fontspec Info: Font family 'FangSong(0)' created for font 'FangSong'
+Package fontspec Info: 
+(fontspec)             Font family 'FangSong(0)' created for font 'FangSong'
 (fontspec)             with options
 (fontspec)             [Script={CJK},Path={./fonts/},AutoFakeBold={4}].
 (fontspec)              
@@ -1156,7 +1164,8 @@ lden=4;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 
 
-Package fontspec Info: Font family 'TimesNewRoman(0)' created for font
+Package fontspec Info: 
+(fontspec)             Font family 'TimesNewRoman(0)' created for font
 (fontspec)             'TimesNewRoman' with options
 (fontspec)             [Ligatures=TeX,Path=./fonts/,BoldFont={*Bold},ItalicFont
 ={*Italic},BoldItalicFont={*BoldItalic}].
@@ -1194,30 +1203,30 @@ File: lstmisc.sty 2024/03/11 1.10a (Carsten Heinz)
 \@quotelevel=\count505
 \@quotereset=\count506
 Package translations Info: No language package found. I am going to use `englis
-h' as default language. on input line 165.
- (./zjuthesis.aux)
+h' as default language. on input line 130.
+ (out/zjuthesis.aux)
 \openout1 = `zjuthesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 165.
-LaTeX Font Info:    ... okay on input line 165.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 165.
-LaTeX Font Info:    ... okay on input line 165.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 165.
-LaTeX Font Info:    ... okay on input line 165.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 165.
-LaTeX Font Info:    ... okay on input line 165.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 165.
-LaTeX Font Info:    ... okay on input line 165.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 165.
-LaTeX Font Info:    ... okay on input line 165.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 165.
-LaTeX Font Info:    ... okay on input line 165.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 165.
-LaTeX Font Info:    ... okay on input line 165.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 165.
-LaTeX Font Info:    ... okay on input line 165.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 165.
-LaTeX Font Info:    ... okay on input line 165.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 130.
+LaTeX Font Info:    ... okay on input line 130.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1253,7 +1262,7 @@ LaTeX Font Info:    ... okay on input line 165.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 165.
+Package hyperref Info: Link coloring OFF on input line 130.
 (c:/texlive/2024/texmf-dist/tex/latex/pdflscape/pdflscape.sty
 Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
 
@@ -1280,113 +1289,11 @@ Package biblatex Info: Automatic encoding selection.
 \openout3 = `zjuthesis.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'zjuthesis.bbl' found.
+Package biblatex Info: ... file 'zjuthesis.bbl' not found.
 
-(./zjuthesis.bbl
-
-Package fontspec Info: Font family 'SimSun(1)' created for font 'SimSun' with
-(fontspec)             options
-(fontspec)             [Script={CJK},Path={./fonts/},AutoFakeBold={4}].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"[./fonts/SimSun]/OT:script=hani;language=dflt;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->"[./fonts/SimSun]/OT:script=hani;language=dflt;embold
-en=4;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
-
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database (refsection 5):
-(biblatex)                Bianchi2020
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database (refsection 5):
-(biblatex)                Erdos1960
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database (refsection 5):
-(biblatex)                FeyandLenssen2019
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database (refsection 5):
-(biblatex)                Hu2020
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database (refsection 5):
-(biblatex)                Kenton2019
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database (refsection 5):
-(biblatex)                Nguyen2021
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database (refsection 5):
-(biblatex)                PeriyasamyThandavan2010
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database (refsection 5):
-(biblatex)                SharifiNoghabi2019
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database (refsection 5):
-(biblatex)                Velickovic2018
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database (refsection 5):
-(biblatex)                Velickovic2019
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database (refsection 5):
-(biblatex)                Xu2019
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database (refsection 5):
-(biblatex)                vanderMaaten2008
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-)
-Package biblatex Info: Reference section=0 on input line 165.
-Package biblatex Info: Reference segment=0 on input line 165.
+No file zjuthesis.bbl.
+Package biblatex Info: Reference section=0 on input line 130.
+Package biblatex Info: Reference segment=0 on input line 130.
 
 (c:/texlive/2024/texmf-dist/tex/latex/translations/translations-basic-dictionar
 y-english.trsl
@@ -1394,7 +1301,7 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 165.
+or `english'. on input line 130.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: listings package is loaded.
@@ -1406,8 +1313,8 @@ Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count507
 \blx@maxsegment@1=\count508
 \blx@sectionciteorder@1=\count509
-Package biblatex Info: Reference section=1 on input line 173.
-Package biblatex Info: Setting label 'refsection:1' on input line 173.
+Package biblatex Info: Reference section=1 on input line 138.
+Package biblatex Info: Setting label 'refsection:1' on input line 138.
 
 (./page/undergraduate/final/cover.tex
 LaTeX Font Info:    Trying to load font information for U+msa on input line 5.
@@ -1429,7 +1336,8 @@ File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 File: figure/logo/zjuchar.pdf Graphic file (type pdf)
 <use figure/logo/zjuchar.pdf>
 
-Package fontspec Info: Font family 'SimHei(0)' created for font 'SimHei' with
+Package fontspec Info: 
+(fontspec)             Font family 'SimHei(0)' created for font 'SimHei' with
 (fontspec)             options
 (fontspec)             [Script={CJK},Path={./fonts/},AutoFakeBold={4}].
 (fontspec)              
@@ -1453,7 +1361,7 @@ File: figure/logo/zju.pdf Graphic file (type pdf)
 Package fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less.
 (fancyhdr)                Please consider using the `twoside' option on input l
-ine 173.
+ine 138.
 
 (./page/undergraduate/final/previous.tex
 (./page/undergraduate/final/promise.tex)
@@ -1464,6 +1372,23 @@ less.
 (fancyhdr)                Please consider using the `twoside' option on input l
 ine 1.
 
+
+Package fontspec Info: 
+(fontspec)             Font family 'SimSun(1)' created for font 'SimSun' with
+(fontspec)             options
+(fontspec)             [Script={CJK},Path={./fonts/},AutoFakeBold={4}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[./fonts/SimSun]/OT:script=hani;language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"[./fonts/SimSun]/OT:script=hani;language=dflt;embold
+en=4;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
+
 [1
 
 ]) (./body/undergraduate/final/abstract.tex [2
@@ -1473,7 +1398,7 @@ ine 1.
 ]))
 (./page/undergraduate/final/toc.tex [4
 
-] (./zjuthesis.toc)
+] (out/zjuthesis.toc)
 \tf@toc=\write4
 \openout4 = `zjuthesis.toc'.
 
@@ -1491,7 +1416,7 @@ ine 7.
 Package fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less.
 (fancyhdr)                Please consider using the `twoside' option on input l
-ine 173.
+ine 138.
 
 (./page/undergraduate/final/cover-part.tex [1
 
@@ -1516,19 +1441,23 @@ File: figure/logo/zju.pdf Graphic file (type pdf)
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
 nput line 56.
 
-Package fontspec Info: Could not resolve font "FangSong/I" (it probably
+Package fontspec Info: 
+(fontspec)             Could not resolve font "FangSong/I" (it probably
 (fontspec)             doesn't exist).
 
 
-Package fontspec Info: Could not resolve font "FangSong/BI" (it probably
+Package fontspec Info: 
+(fontspec)             Could not resolve font "FangSong/BI" (it probably
 (fontspec)             doesn't exist).
 
 
-Package fontspec Info: Could not resolve font "FangSong/I" (it probably
+Package fontspec Info: 
+(fontspec)             Could not resolve font "FangSong/I" (it probably
 (fontspec)             doesn't exist).
 
 
-Package fontspec Info: Font family 'FangSong(1)' created for font 'FangSong'
+Package fontspec Info: 
+(fontspec)             Font family 'FangSong(1)' created for font 'FangSong'
 (fontspec)             with options [Script={CJK},AutoFakeBold={4}].
 (fontspec)              
 (fontspec)              This font family consists of the following NFSS
@@ -1567,7 +1496,8 @@ LaTeX Font Warning: Font shape `TU/SimHei(0)/b/it' undefined
 (Font)              using `TU/SimHei(0)/b/n' instead on input line 80.
 
 
-Package fontspec Info: Font family 'KaiTi(0)' created for font 'KaiTi' with
+Package fontspec Info: 
+(fontspec)             Font family 'KaiTi(0)' created for font 'KaiTi' with
 (fontspec)             options
 (fontspec)             [Script={CJK},Path={./fonts/},AutoFakeBold={4}].
 (fontspec)              
@@ -1629,10 +1559,698 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
  []
 
-)) [8
+))
+Package biblatex Info: Reference section=0 on input line 138.
+\blx@maxsegment@2=\count510
+\blx@sectionciteorder@2=\count511
+Package biblatex Info: Reference section=2 on input line 138.
+Package biblatex Info: Setting label 'refsection:2' on input line 138.
+ (./page/undergraduate/proposal/cover-part.tex [8
 
 
-] (./zjuthesis.aux)
+] [9
+
+
+])
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 1>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 1>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 1>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 1>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 1>
+ [10
+
+]
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 2>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 2>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 2>
+ [11
+
+]
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 3>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 3>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 3>
+ [12
+
+]
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 4>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 4>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 4>
+
+[13
+
+]
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 5>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 5>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 5>
+ [14
+
+]
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 6>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 6>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 6>
+ [15
+
+]
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 7>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 7>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 7>
+ [16
+
+]
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 8>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 8>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 8>
+ [17
+
+]
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 9>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 9>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 9>
+ [18
+
+]
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 10>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 10>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 10>
+ [19
+
+]
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 11>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 11>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 11>
+ [20
+
+]
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 12>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 12>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 12>
+ [21
+
+]
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 13>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 13>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 13>
+ [22
+
+]
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 14>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 14>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 14>
+ [23
+
+]
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 15>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 15>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 15>
+ [24
+
+]
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 16>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 16>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 16>
+ [25
+
+]
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 17>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 17>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 17>
+ [26
+
+]
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 18>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 18>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 18>
+ [27
+
+]
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 19>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 19>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 19>
+
+[28
+
+]
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 20>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 20>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 20>
+ [29
+
+]
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 21>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 21>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 21>
+ [30
+
+]
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 22>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 22>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 22>
+ [31
+
+]
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 23>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 23>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 23>
+ [32
+
+]
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 24>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 24>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 24>
+ [33
+
+]
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 25>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 25>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 25>
+ [34
+
+]
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 26>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 26>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 26>
+ [35
+
+]
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 27>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 27>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 27>
+ [36
+
+]
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 28>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 28>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 28>
+ [37
+
+]
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 29>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 29>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 29>
+ [38
+
+]
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 30>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 30>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 30>
+ [39
+
+]
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 31>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 31>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 31>
+ [40
+
+]
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 32>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 32>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 32>
+ [41
+
+]
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 33>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 33>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 33>
+ [42
+
+]
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 34>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 34>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 34>
+
+[43
+
+]
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 35>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 35>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 35>
+ [44
+
+]
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 36>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 36>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 36>
+ [45
+
+]
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 37>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 37>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 37>
+ [46
+
+]
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 38>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 38>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 38>
+ [47
+
+]
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 39>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 39>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 39>
+ [48
+
+]
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 40>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 40>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 40>
+ [49
+
+]
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 41>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 41>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 41>
+ [50
+
+]
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 42>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 42>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 42>
+ [51
+
+]
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 43>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 43>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 43>
+ [52
+
+]
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 44>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 44>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 44>
+ [53
+
+]
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 45>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 45>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 45>
+ [54
+
+]
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 46>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 46>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 46>
+ [55
+
+]
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 47>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 47>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 47>
+ [56
+
+]
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 48>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 48>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 48>
+ [57
+
+]
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 49>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 49>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 49>
+
+[58
+
+]
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 50>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 50>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 50>
+ [59
+
+]
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 51>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 51>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 51>
+ [60
+
+]
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 52>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 52>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 52>
+ [61
+
+]
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 53>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 53>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 53>
+ [62
+
+]
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 54>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 54>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 54>
+ [63
+
+]
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 55>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 55>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 55>
+ [64
+
+]
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 56>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 56>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 56>
+ [65
+
+]
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 57>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 57>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 57>
+ [66
+
+]
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 58>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 58>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 58>
+ [67
+
+]
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 59>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 59>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 59>
+ [68
+
+]
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 60>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 60>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 60>
+ [69
+
+]
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 61>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 61>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 61>
+ [70
+
+]
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 62>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 62>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 62>
+ [71
+
+]
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 63>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 63>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 63>
+ [72
+
+]
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 64>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 64>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 64>
+
+[73
+
+]
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 65>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 65>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 65>
+ [74
+
+]
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 66>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 66>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 66>
+ [75
+
+]
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 67>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 67>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 67>
+ [76
+
+]
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 68>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 68>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 68>
+ [77
+
+]
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 69>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 69>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 69>
+ [78
+
+]
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 70>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 70>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 70>
+ [79
+
+]
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 71>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 71>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 71>
+ [80
+
+]
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 72>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 72>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 72>
+ [81
+
+]
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 73>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 73>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 73>
+ [82
+
+]
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 74>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 74>
+File: Proposal.pdf Graphic file (type pdf)
+<use Proposal.pdf, page 74>
+ [83
+
+] (out/zjuthesis.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2022/08/05>
@@ -1658,12 +2276,12 @@ Package logreq Info: Writing requests to 'zjuthesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 35001 strings out of 474760
- 768426 string characters out of 5761053
- 1957148 words of memory out of 5000000
- 56548 multiletter control sequences out of 15000+600000
+ 35097 strings out of 474706
+ 771003 string characters out of 5759854
+ 1957406 words of memory out of 5000000
+ 56694 multiletter control sequences out of 15000+600000
  574898 words of font info for 174 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 107i,17n,111p,1223b,1262s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 107i,18n,111p,1224b,1262s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on zjuthesis.pdf (15 pages).
+Output written on out/zjuthesis.pdf (90 pages).

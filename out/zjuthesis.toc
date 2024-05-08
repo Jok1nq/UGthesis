@@ -13,3 +13,4 @@
 \contentsline {section}{作者简历}{6}{section*.7}%
 \contentsline {section}{本科生毕业论文（设计）任务书}{7}{section*.8}%
 \contentsline {section}{本科生毕业论文（设计）考核}{8}{section*.9}%
+\contentsline {part}{第二部分\hspace {1em}毕业论文开题报告}{9}{part.2}%
