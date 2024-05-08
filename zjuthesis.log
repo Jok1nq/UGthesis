@@ -1,8 +1,8 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.3.28)  28 MAR 2024 14:46
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.3.28)  8 MAY 2024 10:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**zjuthesis.tex
+**zjuthesi.tex
 (./zjuthesis.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-03-14>
@@ -1473,20 +1473,20 @@ ine 1.
 ]))
 (./page/undergraduate/final/toc.tex [4
 
-] (./zjuthesis.toc
+] (./zjuthesis.toc)
+\tf@toc=\write4
+\openout4 = `zjuthesis.toc'.
+
+
 
 Package fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less.
 (fancyhdr)                Please consider using the `twoside' option on input l
-ine 29.
+ine 7.
 
 [1
 
 ])
-\tf@toc=\write4
-\openout4 = `zjuthesis.toc'.
-
- [2])
 
 Package fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less.
@@ -1629,267 +1629,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
  []
 
-))
-Package biblatex Info: Reference section=0 on input line 173.
-\blx@maxsegment@2=\count510
-\blx@sectionciteorder@2=\count511
-Package biblatex Info: Reference section=2 on input line 173.
-Package biblatex Info: Setting label 'refsection:2' on input line 173.
- (./page/undergraduate/proposal/cover-part.tex [8
-
-
-] [9
-
-
-])
-(./page/undergraduate/proposal/cover.tex
-File: figure/logo/zjuchar.pdf Graphic file (type pdf)
-<use figure/logo/zjuchar.pdf>
-File: figure/logo/zju.pdf Graphic file (type pdf)
-<use figure/logo/zju.pdf>
-)
-(./page/undergraduate/proposal/previous.tex [10
-
-]
-(./page/undergraduate/proposal/thesis/previous.tex
-Underfull \hbox (badness 10000) in paragraph at lines 3--5
-
- []
-
-)) [11
-
-]
-
-Package fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less.
-(fancyhdr)                Please consider using the `twoside' option on input l
-ine 173.
-
-(./body/undergraduate/proposal/content.tex
-(./body/undergraduate/proposal/review/review.tex
-Package biblatex Info: Reference section=0 on input line 2.
-\blx@maxsegment@3=\count512
-\blx@sectionciteorder@3=\count513
-Package biblatex Info: Reference section=3 on input line 2.
-Package biblatex Info: Setting label 'refsection:3' on input line 2.
-
-一、
-
-LaTeX Warning: Citation 'zjuthesisrules' on page 1 undefined on input line 6.
-
-
-Package fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less.
-(fancyhdr)                Please consider using the `twoside' option on input l
-ine 20.
-
-[1
-
-
-
-
-]
-
-LaTeX Warning: Empty bibliography on input line 23.
-
-) (./body/undergraduate/proposal/proposal/proposal.tex
-Package biblatex Info: Reference section=0 on input line 2.
-\blx@maxsegment@4=\count514
-\blx@sectionciteorder@4=\count515
-Package biblatex Info: Reference section=4 on input line 2.
-Package biblatex Info: Setting label 'refsection:4' on input line 2.
-
-二、
-(./body/undergraduate/proposal/proposal/background.tex
-
-LaTeX Warning: Citation 'zjuthesisrules' on page 2 undefined on input line 3.
-
-) (./body/undergraduate/proposal/proposal/content.tex)
-(./body/undergraduate/proposal/proposal/plan.tex)
-
-Package fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less.
-(fancyhdr)                Please consider using the `twoside' option on input l
-ine 9.
-
-[2
-
-
-]
-
-LaTeX Warning: Empty bibliography on input line 12.
-
-) (./body/undergraduate/proposal/translation/translation.tex
-Package biblatex Info: Reference section=0 on input line 3.
-\blx@maxsegment@5=\count516
-\blx@sectionciteorder@5=\count517
-Package biblatex Info: Reference section=5 on input line 3.
-Package biblatex Info: Setting label 'refsection:5' on input line 3.
-
-三、
-
-Package fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less.
-(fancyhdr)                Please consider using the `twoside' option on input l
-ine 7.
-
-[3
-
-
-] [4
-
-] [5] [6] [7] [8]
-
-LaTeX Warning: Citation 'Xu2019' on page 9 undefined on input line 82.
-
-
-LaTeX Warning: Citation 'Hu2020' on page 9 undefined on input line 82.
-
-
-LaTeX Warning: Citation 'Velickovic2018' on page 9 undefined on input line 85.
-
-
-LaTeX Warning: Citation 'Bianchi2020' on page 9 undefined on input line 85.
-
-[9]
-
-LaTeX Warning: Citation 'Kenton2019' on page 10 undefined on input line 91.
-
-
-LaTeX Warning: Citation 'Velickovic2019' on page 10 undefined on input line 91.
-
-
-[10] [11]
-
-LaTeX Warning: Citation 'SharifiNoghabi2019' on page 12 undefined on input line
- 113.
-
-
-LaTeX Warning: Citation 'Nguyen2021' on page 12 undefined on input line 113.
-
-
-LaTeX Warning: Citation 'FeyandLenssen2019' on page 12 undefined on input line 
-113.
-
-[12] [13]
-
-LaTeX Warning: Citation 'Erdos1960' on page 14 undefined on input line 135.
-
-[14]
-
-LaTeX Warning: Citation 'vanderMaaten2008' on page 15 undefined on input line 1
-38.
-
-
-LaTeX Warning: Citation 'PeriyasamyThandavan2010' on page 15 undefined on input
- line 142.
-
-[15]
-
-LaTeX Warning: Citation 'Bianchi2020' on page 16 undefined on input line 153.
-
-[16]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.157     \printbibliography[title={外文翻译参考文献}]
-                                              
-? 
-! Missing { inserted.
-<to be read again> 
-                   }
-l.157     \printbibliography[title={外文翻译参考文献}]
-                                              
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.157     \printbibliography[title={外文翻译参考文献}]
-                                              
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.157     \printbibliography[title={外文翻译参考文献}]
-                                              
-? 
-[17]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.157     \printbibliography[title={外文翻译参考文献}]
-                                              
-? 
-! Missing { inserted.
-<to be read again> 
-                   }
-l.157     \printbibliography[title={外文翻译参考文献}]
-                                              
-? 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.157     \printbibliography[title={外文翻译参考文献}]
-                                              
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.157     \printbibliography[title={外文翻译参考文献}]
-                                              
-? 
-[18]) (./body/undergraduate/proposal/original/original.tex [19]
-四、
-File: figure/rules2018.pdf Graphic file (type pdf)
-<use figure/rules2018.pdf>
-File: figure/rules2018.pdf Graphic file (type pdf)
-<use figure/rules2018.pdf>
-File: figure/rules2018.pdf Graphic file (type pdf)
-<use figure/rules2018.pdf, page 1>
-File: figure/rules2018.pdf Graphic file (type pdf)
-<use figure/rules2018.pdf, page 1>
-
-Package fancyhdr Warning: \fancyhead's `E' option without twoside option is use
-less.
-(fancyhdr)                Please consider using the `twoside' option on input l
-ine 13.
-
-[20
-
-
-]
-File: figure/rules2018.pdf Graphic file (type pdf)
-<use figure/rules2018.pdf, page 1>
-File: figure/rules2018.pdf Graphic file (type pdf)
-<use figure/rules2018.pdf, page 1>
-File: figure/rules2018.pdf Graphic file (type pdf)
-<use figure/rules2018.pdf, page 1>
- [21
-
-]
-File: figure/rules2018.pdf Graphic file (type pdf)
-<use figure/rules2018.pdf, page 2>
-File: figure/rules2018.pdf Graphic file (type pdf)
-<use figure/rules2018.pdf, page 2>
-File: figure/rules2018.pdf Graphic file (type pdf)
-<use figure/rules2018.pdf, page 2>
- [22
-
-]
-File: figure/rules2018.pdf Graphic file (type pdf)
-<use figure/rules2018.pdf, page 3>
-File: figure/rules2018.pdf Graphic file (type pdf)
-<use figure/rules2018.pdf, page 3>
-File: figure/rules2018.pdf Graphic file (type pdf)
-<use figure/rules2018.pdf, page 3>
- [23
-
-])) (./page/undergraduate/proposal/post.tex
-(./page/undergraduate/proposal/thesis/post.tex
-(./page/undergraduate/proposal/thesis/proposaleval.tex))) [24
-
-
-
+)) [8
 
 
 ] (./zjuthesis.aux)
@@ -1918,12 +1658,12 @@ Package logreq Info: Writing requests to 'zjuthesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 35514 strings out of 474760
- 792265 string characters out of 5761053
- 1963148 words of memory out of 5000000
- 57006 multiletter control sequences out of 15000+600000
- 576769 words of font info for 182 fonts, out of 8000000 for 9000
+ 35001 strings out of 474760
+ 768426 string characters out of 5761053
+ 1957148 words of memory out of 5000000
+ 56548 multiletter control sequences out of 15000+600000
+ 574898 words of font info for 174 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 107i,19n,111p,1224b,5448s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 107i,17n,111p,1223b,1262s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on zjuthesis.pdf (43 pages).
+Output written on zjuthesis.pdf (15 pages).
