@@ -90,12 +90,13 @@
 
         \coverstyle
         \inputpage{proposal}{cover-part}
-        \includepdf[
-            pages=1-74,
-            scale=1.0,
-            pagecommand={\pagestyle{fancy}},
-        ]{./import/Proposal.pdf}
-        
+        % \begin{center}
+            \includepdf[
+                pages=1-74,
+                scale=1.0,
+                pagecommand={\pagestyle{fancy}},
+            ]{Proposal.pdf}
+        % \end{center}
         % \inputpage{proposal}{cover}
         % \inputpage{proposal}{previous}
         
@@ -127,14 +128,13 @@
     \inputbody{post}
 }
 
-
-
 \begin{document}
+
 \ifthenelse{\equal{\Degree}{undergraduate}}
 {
     \inputundergraduate{}
 }
-% {
-%     \inputgraduate{}
-% }
+{
+    \inputgraduate{}
+}
 \end{document}
