@@ -1,0 +1,148 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{1}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{Enhancing2024}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=660432d549808eb388222f2b239999d5}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Haonan},
+           giveni={H\bibinitperiod}}}%
+        {{hash=61fce142b6cc7f51a3522f957baa7f25}{%
+           family={Hao},
+           familyi={H\bibinitperiod},
+           given={Yu},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=b9e95bbb46c5647a63480fd82527a81d}{%
+           family={Zhai},
+           familyi={Z\bibinitperiod},
+           given={Yizhuo},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=c33490632465703d69cc3130748f68cf}{%
+           family={Qian},
+           familyi={Q\bibinitperiod},
+           given={Zhiyun},
+           giveni={Z\bibinitperiod}}}%
+      }
+      \name{namea}{4}{}{%
+        {{hash=660432d549808eb388222f2b239999d5}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Haonan},
+           giveni={H\bibinitperiod}}}%
+        {{hash=61fce142b6cc7f51a3522f957baa7f25}{%
+           family={Hao},
+           familyi={H\bibinitperiod},
+           given={Yu},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=b9e95bbb46c5647a63480fd82527a81d}{%
+           family={Zhai},
+           familyi={Z\bibinitperiod},
+           given={Yizhuo},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=c33490632465703d69cc3130748f68cf}{%
+           family={Qian},
+           familyi={Q\bibinitperiod},
+           given={Zhiyun},
+           giveni={Z\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{186987e0873796eeccceb9e91da1e9ec}
+      \strng{fullhash}{da3d3627f4f8289cf225784554762d32}
+      \strng{fullhashraw}{da3d3627f4f8289cf225784554762d32}
+      \strng{bibnamehash}{3183f0c72cbe5b7715563c1b7e88bc96}
+      \strng{authorbibnamehash}{3183f0c72cbe5b7715563c1b7e88bc96}
+      \strng{authornamehash}{186987e0873796eeccceb9e91da1e9ec}
+      \strng{authorfullhash}{da3d3627f4f8289cf225784554762d32}
+      \strng{authorfullhashraw}{da3d3627f4f8289cf225784554762d32}
+      \strng{nameabibnamehash}{3183f0c72cbe5b7715563c1b7e88bc96}
+      \strng{nameanamehash}{186987e0873796eeccceb9e91da1e9ec}
+      \strng{nameafullhash}{da3d3627f4f8289cf225784554762d32}
+      \strng{nameafullhashraw}{da3d3627f4f8289cf225784554762d32}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the ACM on Programming Languages (PACMPL), Issue OOPSLA}
+      \field{langid}{english}
+      \field{languageid}{english}
+      \field{lansortorder}{4}
+      \field{title}{Enhancing Static Analysis for Practical Bug Detection: An LLM-Integrated Approach}
+      \field{usera}{J}
+      \field{userd}{english}
+      \field{userf}{english}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \keyw{Enhancing2024}
+    \endentry
+    \entry{zjuthesis}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=ba3fe12355ff23acd654ca55ae78895f}{%
+           family={王子轩},
+           familyi={王\bibinitperiod}}}%
+      }
+      \name{namea}{1}{}{%
+        {{hash=ba3fe12355ff23acd654ca55ae78895f}{%
+           family={王子轩},
+           familyi={王\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {chinese}%
+      }
+      \strng{namehash}{ba3fe12355ff23acd654ca55ae78895f}
+      \strng{fullhash}{ba3fe12355ff23acd654ca55ae78895f}
+      \strng{fullhashraw}{ba3fe12355ff23acd654ca55ae78895f}
+      \strng{bibnamehash}{ba3fe12355ff23acd654ca55ae78895f}
+      \strng{authorbibnamehash}{ba3fe12355ff23acd654ca55ae78895f}
+      \strng{authornamehash}{ba3fe12355ff23acd654ca55ae78895f}
+      \strng{authorfullhash}{ba3fe12355ff23acd654ca55ae78895f}
+      \strng{authorfullhashraw}{ba3fe12355ff23acd654ca55ae78895f}
+      \strng{nameabibnamehash}{ba3fe12355ff23acd654ca55ae78895f}
+      \strng{nameanamehash}{ba3fe12355ff23acd654ca55ae78895f}
+      \strng{nameafullhash}{ba3fe12355ff23acd654ca55ae78895f}
+      \strng{nameafullhashraw}{ba3fe12355ff23acd654ca55ae78895f}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{languageid}{chinese}
+      \field{lansortorder}{1}
+      \field{title}{浙江大学毕业设计/论文模板}
+      \field{usera}{EB}
+      \field{userd}{chinese}
+      \field{userf}{chinese}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://github.com/TheNetAdmin/zjuthesis
+      \endverb
+      \verb{url}
+      \verb https://github.com/TheNetAdmin/zjuthesis
+      \endverb
+      \keyw{zjuthesis}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
