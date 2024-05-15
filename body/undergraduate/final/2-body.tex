@@ -309,7 +309,7 @@ mov ebx, [esi]      ; 加载数据到 ebx，期望得到原始数据
 这主要是因为内存别名问题。例如，再考虑~\autoref{code_memacc}的例子，其中指令（a）和指令（b）访问相同的内存地址（即$0x201073d4$）。
 如果我们能够建立这种关联，那么我们就可以将指令（a）视为崩溃的根本原因。
 然而，主要困难在于这些指令涉及的具体内存地址常常由于不可逆指令的存在而变得模糊不清。
-以指令$MOV R3, \#0$为例，它将寄存器$R3$设置为$0x0$，在逆向执行时我们只知道R3在这条指令被执行后的值是$0X0$，但无法恢复这条指令执行前$R3$的原始值。
+以指令$MOV\ R3,\ \#0$为例，它将寄存器$R3$设置为$0x0$，在逆向执行时我们只知道R3在这条指令被执行后的值是$0X0$，但无法恢复这条指令执行前$R3$的原始值。
 
 \begin{figure}[h]
     \centering
@@ -335,10 +335,10 @@ ADD R3, R1, R2  ; (c) 将R1和R2的值相加，结果存入R3
 STR R3, [R4]    ; (d) 将R3的内容存储到R4指向的内存地址
 \end{lstlisting}
 
-首先对于指令(a)：$MOV R1, \#4$，涉及到的定义节点为$R1$。
-对于指令(b)：$MOV R2, \#10$，涉及到了对$R2$的定义。
-对于指令(c)：$ADD R3, R1, R2$，其中$R1$，$R2$的值被读取并用于计算，因此它们是使用节点；同时这条指令定义了$R3$的值，所以$R3$是一个定义节点。
-对于指令(d)：$STR R3, [R4]$，$R3$的值被用于存储操作，而$R4$是作为地址的基础，因此它们都是使用节点;
+首先对于指令(a)：$MOV\ R1,\ \#4$，涉及到的定义节点为$R1$。
+对于指令(b)：$MOV\ R2,\ \#10$，涉及到了对$R2$的定义。
+对于指令(c)：$ADD\ R3,\ R1, R2$，其中$R1$，$R2$的值被读取并用于计算，因此它们是使用节点；同时这条指令定义了$R3$的值，所以$R3$是一个定义节点。
+对于指令(d)：$STR\ R3,\ [R4]$，$R3$的值被用于存储操作，而$R4$是作为地址的基础，因此它们都是使用节点;
 同时由于这个操作定义了内存地址$[R4]$的内容，所以$R4$是一个定义节点。
 直观的，我们可以用\autoref{fig:viaual_udchain2}如所示来表述数据的流动。
 \begin{figure}[h]
@@ -384,13 +384,125 @@ STR R3, [R4]    ; (d) 将R3的内容存储到R4指向的内存地址
 
 值得注意的是，这种方法无法处理内存别名问题。
 为了解决这个问题，我们利用第一阶段记录的信息来恢复实际的运行时数据。
-例如，对于指令$STR R0, [R1, \#4]$，它将$R0$的值存储在地址$R1+4$的内存中。
+例如，对于指令$STR\ R0,\ [R1,\ \#4]$，它将$R0$的值存储在地址$R1+4$的内存中。
 
-如\autoref{fig:solvealias}所示，在之前的足迹收集阶段，我们已经获得了目标地址（即$[R1, \#4]$）和要存储的具体数据。
+如\autoref{fig:solvealias}所示，在之前的足迹收集阶段，我们已经获得了目标地址（即$[R1,\ \#4]$）和要存储的具体数据。
 有了这个数据事件，我们可以直接从具体数据中恢复R0的值，并通过从目标地址减去4字节来恢复R1的值。
 与假设测试和值集分析等其他技术相比，这种方法不仅保证了精确性，还大大加快了逆向执行的速度。
 \subsubsection{根因分析}
+在这一节中，我们介绍本文方法的最后一个环节——根因分析。
+首先，我们从嵌入式固件崩溃处开始执行后向污点分析，以识别与根本原因相关的指令。
+这一分析通过跟踪与崩溃相关的数据的污点传播，来确定可能导致崩溃的指令，
+从而使分析人员可以更有效地聚焦于最关键的指令，更精确地定位和理解崩溃的原因。
+
+本阶段主要用到的方法是后向污点分析。后向污点分析从崩溃点开始，逆向追溯数据的来源，以确定是哪些操作和值导致了程序崩溃，从而确定根因。
+基于此信息，我们通过逆向执行轨迹，从崩溃点开始追踪数据的反向流动。下面将详细解释后向污点分析环节。
+
+\textbf{（1）污点汇的定义和作用}\ 
+污点汇（Taint Sink）是后向污点分析中定义的一个术语，它指的是分析的起始点，通常是内存地址或寄存器，它们直接关联到错误或异常的发生。
+在内存读写错误的情况下，涉及的寄存器或内存位置成为污点汇；
+如果是由特定的指令如跳转或调用导致的崩溃，涉及的寄存器（如程序计数器PC）或相关栈地址被标记为污点汇。
+如果一条指令试图从一个未初始化的寄存器读取数据或写入到一个非法的内存地址，这个寄存器或内存地址就会被识别为污点汇。
+
+\begin{lstlisting}[
+    language={asm},
+    caption={污点汇定义示例},
+    label={code_taint}
+]
+xor edi, edi         
+mov eax, 1234        
+mov [edi], eax      
+\end{lstlisting}
+
+在后向污点分析中，我们会寻找与错误直接相关的内存地址或寄存器，这些就是所谓的污点汇。
+如~\autoref{code_taint}所示，在这个简单的示例中，$edi$被清零，
+而指令$mov\ [edi],\ eax$试图将$eax$寄存器中的值写入到$edi$寄存器指向的内存地址，这会导致访问违规错误。
+因此在这个例子，$edi$寄存器是污点汇，
+在后向污点分析过程中，我们会从$mov\ [edi],\ eax$开始，追踪导致$edi$被设为零的原因，从而揭示导致程序崩溃的根本原因。
+
+值得注意的是，这个例子中$edi$被简单的清零来模拟非法或被保护的内存地址，
+但在更为复杂的程序中，某些寄存器或内存地址可能由于错误的程序逻辑或错误的内存管理而未正确初始化或被错误地修改，从而导致了程序崩溃。
+
+\textbf{（2）后向传播规则}\ 
+本方法中，污点传播规则是用来追踪和分析程序执行过程中数据的流动，尤其是污点汇反向追踪到根因的过程。
+这些规则是本方法进行后向污点分析的核心部分，帮助定位和诊断导致程序崩溃或错误行为的具体指令或操作。
+
+
+
+
+\begin{lstlisting}[
+    language={python},
+    caption={后向污点分析算法},
+    label={code_taintcode}
+]
+def backward_taint_analysis(crash_site, instructions):
+    # 1. 识别污点汇
+    taint_sinks = identify_taint_sinks(crash_site)
+    # 2. 初始化污点集合
+    tainted_instructions = set(taint_sinks)
+    # 3. 反向追踪污点
+    while tainted_instructions:
+        current_instruction = tainted_instructions.pop()
+        # 查找当前指令的来源指令，并将其加入污点集合
+        for source_instruction in find_source_instructions(current_instruction, instructions):
+            if source_instruction not in tainted_instructions:
+                tainted_instructions.add(source_instruction)
+    # 4. 报告污点分析结果
+    report_tainted_instructions(tainted_instructions)
+def identify_taint_sinks(crash_site):
+    # 根据崩溃点识别污点汇
+    # 例如，根据崩溃类型识别涉及的寄存器或内存地址
+    return [crash_site]
+def find_source_instructions(instruction, instructions):
+    # 根据指令寻找可能的源头指令，例如使用到相同数据的先前指令
+    return [inst for inst in instructions if inst.destination == instruction.source]
+def report_tainted_instructions(tainted_instructions):
+    # 输出被标记为污点的指令
+    print("Tainted instructions identified:")
+    for inst in tainted_instructions:
+        print(inst)
+
+# 示例用法
+instructions = load_instructions()  # 加载程序中所有指令
+crash_site = get_crash_site()  # 获取崩溃发生的指令或位置
+backward_taint_analysis(crash_site, instructions)
+\end{lstlisting}
+如~\autoref{code_taintcode}是后向污点分析的伪代码。
+本方法中，我们从污点汇出发，使用构建好的使用-定义链追踪数据的来源。下面是污点传播的详细过程：
+首先，我们根据使用定义链，识别哪些操作使用了污点汇中的数据，将污点汇转换为使用节点；
+之后对于每一个使用节点，我们查找导致这些使用的定义节点，这些定义节点是之前的指令或操作，它们生成或改变了使用节点中的数据；
+然后从定义节点开始，我们继续追踪这些节点的使用节点，然后再找到这些使用节点的定义节点。
+这个过程是递归进行的，通过不断地追踪定义和使用的关系，
+这一过程持续进行，直到没有新的节点可以添加到污点集合中，或者已追溯到数据流的起点。
+这意味着所有可能与错误相关的数据流都被标识和分析了；
+最后，完成污点传播后，我们集合所有的污点指令，这些指令代表了可能的错误源。通过进一步的分析，可以确定哪些指令最有可能是导致错误的根本原因。
+
+
+
 \subsection{整体系统实现}
+本工作伪代码如~\autoref{code_code}所示，
+\begin{lstlisting}[
+    language={python},
+    caption={整体系统工作方法},
+    label={code_code}
+]
+def backward_taint_analysis(crash_site, instructions):
+    # 识别污点汇
+    taint_sinks = identify_taint_sinks(crash_site, instructions)
+    # 构建使用-定义链
+    use_define_chain = build_use_define_chain(instructions)
+    # 执行反向污点传播
+    tainted_instructions = propagate_taint(taint_sinks, use_define_chain)
+    # 输出可能的错误源
+    report_potential_root_causes(tainted2_instructions)
+# 主程序流程
+instructions = load_instructions()  # 加载程序指令
+crash_site = get_crash_site()  # 获取崩溃发生的位置
+backward_taint_analysis(crash_site, instructions)
+\end{lstlisting}
+
+
+
 \subsection{本章小结}
 
 
