@@ -20,15 +20,19 @@
 \contentsline {subsection}{\numberline {2.4}本章小结}{9}{subsection.1.0.2.4}%
 \contentsline {section}{\numberline {3}物联网嵌入式固件自动化根因分析}{10}{section.1.0.3}%
 \contentsline {subsection}{\numberline {3.1}引言}{10}{subsection.1.0.3.1}%
-\contentsline {subsection}{\numberline {3.2}问题定义}{10}{subsection.1.0.3.2}%
+\contentsline {subsection}{\numberline {3.2}本文研究的问题定义}{10}{subsection.1.0.3.2}%
 \contentsline {subsubsection}{\numberline {3.2.1}本文关注的根本原因}{10}{subsubsection.1.0.3.2.1}%
-\contentsline {subsection}{\numberline {3.3}物联网嵌入式固件自动化根因分析方法设计}{11}{subsection.1.0.3.3}%
-\contentsline {subsection}{\numberline {3.4}整体系统实现}{11}{subsection.1.0.3.4}%
-\contentsline {subsection}{\numberline {3.5}本章小结}{11}{subsection.1.0.3.5}%
-\contentsline {section}{\numberline {4}实验与评估}{11}{section.1.0.4}%
-\contentsline {section}{\numberline {5}总结与展望}{11}{section.1.0.5}%
-\contentsline {section}{参考文献}{12}{section*.1}%
-\contentsline {section}{作者简历}{14}{section*.2}%
-\contentsline {section}{本科生毕业论文（设计）任务书}{15}{section*.3}%
-\contentsline {section}{本科生毕业论文（设计）考核}{16}{section*.4}%
-\contentsline {part}{第二部分\hspace {1em}毕业论文开题报告}{17}{part.2}%
+\contentsline {subsubsection}{\numberline {3.2.2}内存别名问题}{11}{subsubsection.1.0.3.2.2}%
+\contentsline {subsection}{\numberline {3.3}物联网嵌入式固件自动化根因分析方法设计}{12}{subsection.1.0.3.3}%
+\contentsline {subsubsection}{\numberline {3.3.1}高效运行时信息记录}{13}{subsubsection.1.0.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.2}历史信息指导的逆向执行}{14}{subsubsection.1.0.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.3.3}根因分析}{18}{subsubsection.1.0.3.3.3}%
+\contentsline {subsection}{\numberline {3.4}整体系统实现}{18}{subsection.1.0.3.4}%
+\contentsline {subsection}{\numberline {3.5}本章小结}{18}{subsection.1.0.3.5}%
+\contentsline {section}{\numberline {4}实验与评估}{18}{section.1.0.4}%
+\contentsline {section}{\numberline {5}总结与展望}{18}{section.1.0.5}%
+\contentsline {section}{参考文献}{19}{section*.5}%
+\contentsline {section}{作者简历}{21}{section*.6}%
+\contentsline {section}{本科生毕业论文（设计）任务书}{22}{section*.7}%
+\contentsline {section}{本科生毕业论文（设计）考核}{23}{section*.8}%
+\contentsline {part}{第二部分\hspace {1em}毕业论文开题报告}{24}{part.2}%

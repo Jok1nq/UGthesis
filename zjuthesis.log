@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.5.8)  15 MAY 2024 12:11
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.5.8)  15 MAY 2024 17:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1253,7 +1253,40 @@ Package fancyhdr Warning: \fancyhead's `E' option without twoside option is usel
 ]) (./body/undergraduate/final/content.tex (./body/undergraduate/final/1-introduction.tex [1
 
 
-] [2] [3] [4]) (./body/undergraduate/final/2-body.tex [5] [6] [7] [8] [9] [10])) (./body/undergraduate/final/post.tex [11]
+] [2] [3] [4]) (./body/undergraduate/final/2-body.tex [5] [6] [7] [8] [9] [10] (c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2024/03/11 1.10a listings language file
+) (c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang2.sty
+File: lstlang2.sty 2024/03/11 1.10a listings language file
+) (c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang3.sty
+File: lstlang3.sty 2024/03/11 1.10a listings language file
+)
+
+./body/undergraduate/final/2-body.tex:232: Package Listings Error: Couldn't load requested language.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.232 ]
+       
+The following languages weren't loadable:
+    ,asm$
+This may cause errors in the sequel.
+
+
+./body/undergraduate/final/2-body.tex:232: Package Listings Error: language asm undefined.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.232 ]
+       
+The language is not loadable. Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[11]
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 232.
 
 Package fontspec Info: 
 (fontspec)             Could not resolve font "FangSong/I" (it probably
@@ -1284,14 +1317,174 @@ Package fontspec Info:
 (fontspec)             <->"FangSong/OT:script=hani;language=dflt;embolden=4;"
 (fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 
- [12
 
-] (./body/undergraduate/final/3-appendix.tex) (./body/undergraduate/final/4-cv.tex [13]))
+
+LaTeX Warning: Reference `code_alias' on page 12 undefined on input line 243.
+
+
+LaTeX Warning: Reference `fig:overview' on page 12 undefined on input line 251.
+
+File: ./figure/Overview.png Graphic file (type bmp)
+<./figure/Overview.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[12] (c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2024/03/11 1.10a listings language file
+) (c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang2.sty
+File: lstlang2.sty 2024/03/11 1.10a listings language file
+) (c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang3.sty
+File: lstlang3.sty 2024/03/11 1.10a listings language file
+)
+
+./body/undergraduate/final/2-body.tex:276: Package Listings Error: Couldn't load requested language.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.276 ]
+       
+The following languages weren't loadable:
+    ,asm$
+This may cause errors in the sequel.
+
+
+./body/undergraduate/final/2-body.tex:276: Package Listings Error: language asm undefined.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.276 ]
+       
+The language is not loadable. Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Reference `code_memacc' on page 13 undefined on input line 284.
+
+[13]
+
+LaTeX Warning: Reference `code_memacc' on page 14 undefined on input line 309.
+
+[14]
+File: ./figure/UD-Chain.png Graphic file (type bmp)
+<./figure/UD-Chain.png>
+
+
+LaTeX Warning: Reference `fig:ud-chain' on page 15 undefined on input line 322.
+
+
+LaTeX Warning: Reference `code:udchain' on page 15 undefined on input line 326.
+
+(c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2024/03/11 1.10a listings language file
+) (c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang2.sty
+File: lstlang2.sty 2024/03/11 1.10a listings language file
+) (c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang3.sty
+File: lstlang3.sty 2024/03/11 1.10a listings language file
+)
+
+./body/undergraduate/final/2-body.tex:331: Package Listings Error: Couldn't load requested language.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.331 ]
+       
+The following languages weren't loadable:
+    ,asm$
+This may cause errors in the sequel.
+
+
+./body/undergraduate/final/2-body.tex:331: Package Listings Error: language asm undefined.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.331 ]
+       
+The language is not loadable. Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[15]
+
+LaTeX Warning: Reference `fig:viaual_udchain2' on page 16 undefined on input line 343.
+
+File: ./figure/UD-visual.png Graphic file (type bmp)
+<./figure/UD-visual.png>
+
+LaTeX Warning: Reference `code:udchain' on page 16 undefined on input line 347.
+
+
+LaTeX Warning: Reference `code:udchain' on page 16 undefined on input line 347.
+
+
+LaTeX Warning: Reference `code:viaual_udchain' on page 16 undefined on input line 351.
+
+(c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2024/03/11 1.10a listings language file
+) (c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang2.sty
+File: lstlang2.sty 2024/03/11 1.10a listings language file
+) (c:/texlive/2024/texmf-dist/tex/latex/listings/lstlang3.sty
+File: lstlang3.sty 2024/03/11 1.10a listings language file
+)
+
+./body/undergraduate/final/2-body.tex:357: Package Listings Error: Couldn't load requested language.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.357 ]
+       
+The following languages weren't loadable:
+    ,asm$
+This may cause errors in the sequel.
+
+
+./body/undergraduate/final/2-body.tex:357: Package Listings Error: language asm undefined.
+
+See the Listings package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.357 ]
+       
+The language is not loadable. Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Reference `code:udchain' on page 16 undefined on input line 357.
+
+
+LaTeX Warning: Reference `code:udchain' on page 16 undefined on input line 357.
+
+[16]
+Missing character: There is no − ("2212) in font cmr12!
+Missing character: There is no − ("2212) in font cmr12!
+File: ./figure/solvealias.png Graphic file (type bmp)
+<./figure/solvealias.png>
+
+Overfull \hbox (13.86697pt too wide) in paragraph at lines 385--388
+\TU/FangSong(0)/m/n/12.045 用 第 一 阶 段 记 录 的 信 息 来 恢 复 实 际 的 运 行 时 数 据。|  例 如，|  对 于 指 令 $\OML/cmm/m/it/12.045 STRR\OT1/cmr/m/n/12.045 0\OML/cmm/m/it/12.045 ; \OT1/cmr/m/n/12.045 [\OML/cmm/m/it/12.045 R\OT1/cmr/m/n/12.045 1\OML/cmm/m/it/12.045 ; \OT1/cmr/m/n/12.045 #4]$\TU/FangSong(0)/m/n/12.045 ，|
+ []
+
+[17]
+
+LaTeX Warning: Reference `fig:solvealias' on page 18 undefined on input line 389.
+
+)) (./body/undergraduate/final/post.tex [18] [19
+
+] (./body/undergraduate/final/3-appendix.tex) (./body/undergraduate/final/4-cv.tex [20]))
 Underfull \hbox (badness 10000) in paragraph at lines 3--141
 
  []
 
-[14
+[21
 
 
 ] (./page/undergraduate/final/post.tex (./page/undergraduate/final/job.tex
@@ -1304,7 +1497,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 17--18
 
  []
 
-) (./page/undergraduate/final/eval.tex [15
+) (./page/undergraduate/final/eval.tex [22
 
 
 
@@ -1324,18 +1517,13 @@ Package biblatex Info: Reference section=0 on input line 141.
 \blx@sectionciteorder@2=\count511
 Package biblatex Info: Reference section=2 on input line 141.
 Package biblatex Info: Setting label 'refsection:2' on input line 141.
- (./page/undergraduate/proposal/cover-part.tex [16
+ (./page/undergraduate/proposal/cover-part.tex [23
 
 
-] [17
+] [24
 
 
-])
-
-Package caption Warning: Unused \captionsetup[lstlisting] on input line 54.
-See the caption package documentation for explanation.
-
-(./zjuthesis.aux)
+]) (./zjuthesis.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2022/08/05>
@@ -1361,12 +1549,12 @@ Package logreq Info: Writing requests to 'zjuthesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 35102 strings out of 474706
- 780478 string characters out of 5759854
- 1951406 words of memory out of 5000000
- 56721 multiletter control sequences out of 15000+600000
- 574778 words of font info for 159 fonts, out of 8000000 for 9000
+ 35296 strings out of 474706
+ 789804 string characters out of 5759854
+ 2009406 words of memory out of 5000000
+ 56879 multiletter control sequences out of 15000+600000
+ 574810 words of font info for 163 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 107i,17n,111p,1220b,5422s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 107i,17n,111p,1220b,5420s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on zjuthesis.pdf (24 pages).
+Output written on zjuthesis.pdf (31 pages).
