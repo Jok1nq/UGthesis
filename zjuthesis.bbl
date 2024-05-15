@@ -2318,6 +2318,54 @@
       \field{dateera}{ce}
       \keyw{Compilers2007}
     \endentry
+    \entry{toyota}{online}{}{}
+      \list{language}{1}{%
+        {chinese}%
+      }
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{languageid}{chinese}
+      \field{lansortorder}{1}
+      \field{note}{Apr. 2024}
+      \field{title}{丰田汽车（中国）投资有限公司召回部分进口雷克萨斯RX汽车}
+      \field{usera}{EB}
+      \field{userd}{chinese}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.lexus.com.cn/node/5705
+      \endverb
+      \verb{url}
+      \verb https://www.lexus.com.cn/node/5705
+      \endverb
+      \keyw{toyota}
+    \endentry
+    \entry{KASAT}{online}{}{}
+      \list{language}{1}{%
+        {english}%
+      }
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{languageid}{english}
+      \field{lansortorder}{4}
+      \field{note}{Apr. 2024}
+      \field{title}{KA-SAT Network cyber attack overview}
+      \field{usera}{EB}
+      \field{userd}{english}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://news.viasat.com/blog/corporate/ka-sat-network-cyber-attack-overview
+      \endverb
+      \verb{url}
+      \verb https://news.viasat.com/blog/corporate/ka-sat-network-cyber-attack-overview
+      \endverb
+      \keyw{KASAT}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
