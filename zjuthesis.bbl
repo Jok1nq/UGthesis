@@ -1420,6 +1420,53 @@
       \field{dateera}{ce}
       \keyw{IoT2021}
     \endentry
+    \entry{zjuthesis}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=ba3fe12355ff23acd654ca55ae78895f}{%
+           family={王子轩},
+           familyi={王\bibinitperiod}}}%
+      }
+      \name{namea}{1}{}{%
+        {{hash=ba3fe12355ff23acd654ca55ae78895f}{%
+           family={王子轩},
+           familyi={王\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {chinese}%
+      }
+      \strng{namehash}{ba3fe12355ff23acd654ca55ae78895f}
+      \strng{fullhash}{ba3fe12355ff23acd654ca55ae78895f}
+      \strng{fullhashraw}{ba3fe12355ff23acd654ca55ae78895f}
+      \strng{bibnamehash}{ba3fe12355ff23acd654ca55ae78895f}
+      \strng{authorbibnamehash}{ba3fe12355ff23acd654ca55ae78895f}
+      \strng{authornamehash}{ba3fe12355ff23acd654ca55ae78895f}
+      \strng{authorfullhash}{ba3fe12355ff23acd654ca55ae78895f}
+      \strng{authorfullhashraw}{ba3fe12355ff23acd654ca55ae78895f}
+      \strng{nameabibnamehash}{ba3fe12355ff23acd654ca55ae78895f}
+      \strng{nameanamehash}{ba3fe12355ff23acd654ca55ae78895f}
+      \strng{nameafullhash}{ba3fe12355ff23acd654ca55ae78895f}
+      \strng{nameafullhashraw}{ba3fe12355ff23acd654ca55ae78895f}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{languageid}{chinese}
+      \field{lansortorder}{1}
+      \field{title}{浙江大学毕业设计/论文模板}
+      \field{usera}{EB}
+      \field{userd}{chinese}
+      \field{userf}{chinese}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://github.com/TheNetAdmin/zjuthesis
+      \endverb
+      \verb{url}
+      \verb https://github.com/TheNetAdmin/zjuthesis
+      \endverb
+      \keyw{zjuthesis}
+    \endentry
     \entry{BENZENE}{article}{}{}
       \name{author}{5}{}{%
         {{hash=151cf1283a50cd355c3d972f73bc07fd}{%
@@ -2135,8 +2182,8 @@
       \strng{nameafullhash}{9fb27a8d5c7e1cc5e4889f60a265774c}
       \strng{nameafullhashraw}{9fb27a8d5c7e1cc5e4889f60a265774c}
       \field{extraname}{2}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Proceedings of the 2016 ACM SIGSAC Conference on Computer and Communications Security}
