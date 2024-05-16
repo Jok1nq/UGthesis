@@ -2363,6 +2363,30 @@
       \endverb
       \keyw{KASAT}
     \endentry
+    \entry{Fuzzware}{online}{}{}
+      \list{language}{1}{%
+        {english}%
+      }
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{languageid}{english}
+      \field{lansortorder}{4}
+      \field{note}{Apr. 2024}
+      \field{title}{Files used for reproducing Fuzzware’s experiments}
+      \field{usera}{EB}
+      \field{userd}{english}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https: //github.com/fuzzware-fuzzer/fuzzware-experiments/tree/main
+      \endverb
+      \verb{url}
+      \verb https:%20//github.com/fuzzware-fuzzer/fuzzware-experiments/tree/main
+      \endverb
+      \keyw{Fuzzware}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

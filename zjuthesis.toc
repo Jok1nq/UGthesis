@@ -31,15 +31,19 @@
 \contentsline {subsection}{\numberline {3.5}本章小结}{24}{subsection.1.0.3.5}%
 \contentsline {section}{\numberline {4}实验与评估}{25}{section.1.0.4}%
 \contentsline {subsection}{\numberline {4.1}实验环境}{25}{subsection.1.0.4.1}%
-\contentsline {subsection}{\numberline {4.2}实验测试样例分析}{25}{subsection.1.0.4.2}%
-\contentsline {subsection}{\numberline {4.3}实验方案}{25}{subsection.1.0.4.3}%
-\contentsline {subsection}{\numberline {4.4}实验结果与分析}{25}{subsection.1.0.4.4}%
-\contentsline {subsection}{\numberline {4.5}本章小结}{25}{subsection.1.0.4.5}%
-\contentsline {section}{\numberline {5}总结与展望}{26}{section.1.0.5}%
-\contentsline {subsection}{\numberline {5.1}研究工作总结}{26}{subsection.1.0.5.1}%
-\contentsline {subsection}{\numberline {5.2}研究工作展望}{26}{subsection.1.0.5.2}%
-\contentsline {section}{参考文献}{27}{section*.10}%
-\contentsline {section}{作者简历}{29}{section*.11}%
-\contentsline {section}{本科生毕业论文（设计）任务书}{30}{section*.12}%
-\contentsline {section}{本科生毕业论文（设计）考核}{31}{section*.13}%
-\contentsline {part}{第二部分\hspace {1em}毕业论文开题报告}{32}{part.2}%
+\contentsline {subsection}{\numberline {4.2}实验方案}{25}{subsection.1.0.4.2}%
+\contentsline {subsubsection}{\numberline {4.2.1}实验测试样例}{25}{subsubsection.1.0.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2}实验评估办法与关注的问题}{26}{subsubsection.1.0.4.2.2}%
+\contentsline {subsection}{\numberline {4.3}实验结果与分析}{27}{subsection.1.0.4.3}%
+\contentsline {subsubsection}{\numberline {4.3.1}根因分析能力}{27}{subsubsection.1.0.4.3.1}%
+\contentsline {subsubsection}{\numberline {4.3.2}根因分析的开销}{28}{subsubsection.1.0.4.3.2}%
+\contentsline {subsubsection}{\numberline {4.3.3}信息记录组件效率}{29}{subsubsection.1.0.4.3.3}%
+\contentsline {subsection}{\numberline {4.4}本章小结}{30}{subsection.1.0.4.4}%
+\contentsline {section}{\numberline {5}总结与展望}{31}{section.1.0.5}%
+\contentsline {subsection}{\numberline {5.1}研究工作总结}{31}{subsection.1.0.5.1}%
+\contentsline {subsection}{\numberline {5.2}研究工作展望}{31}{subsection.1.0.5.2}%
+\contentsline {section}{参考文献}{33}{section*.15}%
+\contentsline {section}{作者简历}{35}{section*.16}%
+\contentsline {section}{本科生毕业论文（设计）任务书}{36}{section*.17}%
+\contentsline {section}{本科生毕业论文（设计）考核}{37}{section*.18}%
+\contentsline {part}{第二部分\hspace {1em}毕业论文开题报告}{38}{part.2}%
