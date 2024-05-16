@@ -183,7 +183,7 @@ Dandan Xu等人~\cite{Racing}设计并实现了一种反例强化学习技术，
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{物联网嵌入式固件自动化根因分析}    %第3章
-\subsection{引言}
+\subsection{引言}                         %3.1节
 随着网络技术的飞速发展，物联网技术的应用已经渗透到各个产业领域。
 嵌入式固件在这些领域中起着关键作用，它使得设备和系统能够实现自动化、智能化的控制和管理，提高生产效率、节约资源、降低成本。
 然而随着嵌入式固件深入生活各个领域，其中的漏洞与安全问题重要性愈发重要。
@@ -198,8 +198,8 @@ Dandan Xu等人~\cite{Racing}设计并实现了一种反例强化学习技术，
 
 综上所述，如何针对物联网嵌入式固件实现高效自动化根因分析方法，发现固件漏洞，保障物联网嵌入固件安全，是当前亟需解决的问题。
 
-\subsection{本文研究的问题定义}
-\subsubsection{本文关注的根本原因}
+\subsection{本文研究的问题定义}             %3.2节
+\subsubsection{本文关注的根本原因}          %3.2.1节
 现实世界中的固件崩溃原因多种多样且复杂，如使用后释放（use after free）、双重释放（double free）和越界写入（out-of-bounds write）。
 然而，大多数固件崩溃的原因是两个：无效的内存访问和无效的指令执行。
 因为它们直接关系到程序的基本执行和内存管理机制，尤为重要，是所有计算系统都必须妥善处理的基本安全和稳定性挑战，解决这类漏洞是提高固件质量和系统安全的关键。
@@ -218,7 +218,7 @@ Dandan Xu等人~\cite{Racing}设计并实现了一种反例强化学习技术，
 （3）类型错误：程序错误解析了变量类型，或应用了不匹配的类型，如将整数用作函数指针，可能导致程序尝试执行数据区域的代码。
 执行无效指令可能导致程序行为不可预测，从错误操作到程序崩溃都可能发生，严重时可能被用于执行恶意代码，是一种较为常见但是又较为危险的漏洞
 
-\subsubsection{内存别名问题}
+\subsubsection{内存别名问题}                %3.2.2节
 在分析固件崩溃的原因时，分析人员需要通过逆向分析执行轨迹，通过逆向导致崩溃过程的指令，来分析出导致崩溃的根本原因。
 这一过程涉及对崩溃前的数万条指令的深入分析，以追踪数据的流向和变化。
 在分析导致固件崩溃的执行轨迹时,需要重点考虑故障定位中的一个常见而关键的问题——内存别名问题。
@@ -247,7 +247,7 @@ mov ebx, [esi]      ; 加载数据到 ebx，期望得到原始数据
 
 因此，内存别名作为一项重要的问题，需要在自动化方法设计中特备关注。
 
-\subsection{物联网嵌入式固件自动化根因分析方法设计}
+\subsection{物联网嵌入式固件自动化根因分析方法设计} %3.3节
 针对嵌入式固件运行时资源有限以及调试信息有限的特点，我们提出了如~\autoref{fig:overview}所示的自动化根因分析框架。
 \begin{figure}[h]
     \centering
@@ -435,39 +435,21 @@ mov [edi], eax
     caption={后向污点分析算法},
     label={code_taintcode}
 ]
-def backward_taint_analysis(crash_site, instructions):
-    # 1. 识别污点汇
-    taint_sinks = identify_taint_sinks(crash_site)
+Backward_taint_analysis(crash_site, instructions):
+    # 1. 利用崩溃发生的指令或位置识别污点汇
+    TS = identify_taint_sinks(crash_site)
     # 2. 初始化污点集合
-    tainted_instructions = set(taint_sinks)
+    taint_ins = set(TS)
     # 3. 反向追踪污点
-    while tainted_instructions:
-        current_instruction = tainted_instructions.pop()
+    while taint_ins:
         # 查找当前指令的来源指令，并将其加入污点集合
-        for source_instruction in find_source_instructions(current_instruction, instructions):
-            if source_instruction not in tainted_instructions:
-                tainted_instructions.add(source_instruction)
+        for source_ins in find(taint_ins.pop(), instructions):
+            taint_ins.add(source_ins)
     # 4. 报告污点分析结果
-    report_tainted_instructions(tainted_instructions)
-def identify_taint_sinks(crash_site):
-    # 根据崩溃点识别污点汇
-    # 例如，根据崩溃类型识别涉及的寄存器或内存地址
-    return [crash_site]
-def find_source_instructions(instruction, instructions):
-    # 根据指令寻找可能的源头指令，例如使用到相同数据的先前指令
-    return [inst for inst in instructions if inst.destination == instruction.source]
-def report_tainted_instructions(tainted_instructions):
-    # 输出被标记为污点的指令
-    print("Tainted instructions identified:")
-    for inst in tainted_instructions:
-        print(inst)
-
-# 示例用法
-instructions = load_instructions()  # 加载程序中所有指令
-crash_site = get_crash_site()  # 获取崩溃发生的指令或位置
-backward_taint_analysis(crash_site, instructions)
+    report_tainted_instructions(taint_ins)
 \end{lstlisting}
-如~\autoref{code_taintcode}是后向污点分析的伪代码。
+
+~\autoref{code_taintcode}是后向污点分析的伪代码。
 本方法中，我们从污点汇出发，使用构建好的使用-定义链追踪数据的来源。下面是污点传播的详细过程：
 首先，我们根据使用定义链，识别哪些操作使用了污点汇中的数据，将污点汇转换为使用节点；
 之后对于每一个使用节点，我们查找导致这些使用的定义节点，这些定义节点是之前的指令或操作，它们生成或改变了使用节点中的数据；
@@ -477,35 +459,47 @@ backward_taint_analysis(crash_site, instructions)
 这意味着所有可能与错误相关的数据流都被标识和分析了；
 最后，完成污点传播后，我们集合所有的污点指令，这些指令代表了可能的错误源。通过进一步的分析，可以确定哪些指令最有可能是导致错误的根本原因。
 
+\subsection{整体系统实现}               %3.4节
+本工作伪代码如~\autoref{alg:code}所示。
+\begin{table}[h]
+    \centering
+    \caption{物联网嵌入式固件自动化根因分析方法伪代码}
+    \label{alg:code}
+    \begin{tabular}{p{\linewidth}}
+        \toprule
+        \textbf{Algorithm}: RootCauseAnalysisOfFirmware \\
+        \midrule
+        \textbf{Input}: Crashing Testcase, Firmware \\
+        \textbf{Output}:Root Cause Analysis Report
+        \begin{algorithmic}[1]
+        \Function{RCA\_F}{}
+        \State $RuntimeData\ \gets\ InfoRecord(Crashing Testcase,\ Firmware)$
+        \State $UD\_Chain\ \gets\ ReverseExecute$
+        \State $Tainted\_ins\ \gets\ BackwardTainted(RuntimeData, UD\_Chain)$
+        \State $Root\ Cause\ Analysis\ Report\ \gets\ Analysis\ and\ Report(Tainted\_ins)$
+        \State \textbf{return} $Root\ Cause\ Analysis\ Report$
+        \EndFunction
+        \end{algorithmic} 
+        \bottomrule
+    \end{tabular}
+\end{table}
+首先，本方法接受固件二进制程序和崩溃测试用例作为输入，并以崩溃测试用例作为输入仿真执行固件二进制程序，以重现崩溃现象。
+在执行过程中，通过监控内存访问和执行轨迹，收集包括具体的内存读写操作和执行的指令地址等的运行时数据；
+之后进行逆向执行过程，根据收集到的数据，构建使用-定义链，用于追踪程序中的数据流和依赖关系。
+同时通过逆向追踪程序执行，以识别和解析内存别名问题，精确跟踪数据依赖。
+然后进行根因分析阶段，从崩溃点开始，进行后向污点分析。通过反向分析数据的流动标识和跟踪污点数据，分析可能导致崩溃的操作和指令，以确定导致崩溃的根本原因。
+最后整理结果，输出详细的分析报告，包括可能的崩溃原因、关键的污点指令以及推荐的调试或修复步骤。
 
 
-\subsection{整体系统实现}
-本工作伪代码如~\autoref{code_code}所示，
-\begin{lstlisting}[
-    language={python},
-    caption={整体系统工作方法},
-    label={code_code}
-]
-def backward_taint_analysis(crash_site, instructions):
-    # 识别污点汇
-    taint_sinks = identify_taint_sinks(crash_site, instructions)
-    # 构建使用-定义链
-    use_define_chain = build_use_define_chain(instructions)
-    # 执行反向污点传播
-    tainted_instructions = propagate_taint(taint_sinks, use_define_chain)
-    # 输出可能的错误源
-    report_potential_root_causes(tainted2_instructions)
-# 主程序流程
-instructions = load_instructions()  # 加载程序指令
-crash_site = get_crash_site()  # 获取崩溃发生的位置
-backward_taint_analysis(crash_site, instructions)
-\end{lstlisting}
 
-
-
-\subsection{本章小结}
-
-
+\subsection{本章小结}                   %3.5节
+在本章中，我们概述了物联网嵌入式固件在现代技术领域中的重要性和由于安全缺陷带来的风险，并对本文主要方法设计进行了阐述。
+首先我们定义了本文关注的主要问题，即无效的内存访问和无效的指令执行的问题，同时也说明了需要特别解决的内存别名问题。
+之后介绍了本方法的三个主要的组件实现：高效运行时信息记录、历史信息指导的逆向执行和后向污点分析。
+在高效运行时信息记录阶段，我们通过模拟执行引起崩溃的测试用例来收集关键的运行时数据。
+在历史信息指导的逆向执行阶段，我们利用已收集的具体内存访问信息解决内存别名问题，确保数据流分析的准确性。
+在根因分析阶段，我们通过后向污点分析确定导致崩溃的具体原因，为进一步的调查提供指导。
+最后展示了我们提出的物联网嵌入式固件自动化根因分析方法的伪代码并对整个流程进行整合性说明。
 
 
 
@@ -521,4 +515,4 @@ backward_taint_analysis(crash_site, instructions)
 %%%%%%%%第5章 总结与展望%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{总结与展望}
+\section{总结与展望}        %第5章
