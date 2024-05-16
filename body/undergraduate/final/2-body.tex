@@ -92,7 +92,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%第2章 自动化根因分析相关技术研究%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
+\cleardoublepage
 \section{自动化根因分析相关技术研究}        %第2章
 \subsection{概述}
 在科学和工程学中，根因分析是一种解决问题的方法，用于识别故障或问题的根本原因。
@@ -128,6 +128,15 @@
 这种方法使用“频谱”信息，即程序执行过程中各个组件（如函数、语句或分支）的执行频率和失败频率的统计数据。
 例如，对于性能问题，可以记录系统中的函数调用、代码路径执行次数、资源利用情况等信息。
 通过分析这些数据，可以确定哪些函数或路径是性能瓶颈，并识别可能的优化方向。
+\autoref{fig:Benzene}是一种基于频谱的自动化根因分析方法~\cite{BENZENE}
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=1.0\textwidth]{./figure/Benzene.png}
+    \caption{一种基于频谱的自动化根因分析方法}
+    \label{fig:Benzene}
+\end{figure}
+
+
 这种方法可以帮助开发人员了解系统的执行特征，并优化系统的性能和资源利用率。
 大多数基于频谱的根因分析技术研究侧重于统计量的设计，包括排名指标和分布统计。
 但也有一些工作侧重对测试用例的研究：
@@ -140,7 +149,7 @@ Dandan Xu等人~\cite{Racing}设计并实现了一种反例强化学习技术，
 该方法的基本原理是通过收集和分析系统状态、日志、内存转储等信息，来确定问题的根本原因和触发条件。
 通过分析这些信息，可以确定程序的内存泄漏、空指针引用等异常行为，并采取措施修复或预防类似问题的再次发生。
 在事后程序分析技术中，记录与重放~\cite{ReCrash2008}~\cite{SymCrash2014}~\cite{Chronicler2013}和核心转储分析~\cite{RETracer2016}~\cite{Making2015}~\cite{CREDAL2016}是两种常见方法。
-\autoref{fig:symcon}是一种基于时候故障定位方法~\cite{SymCrash2014}
+\autoref{fig:symcon}是一种基于事后的故障定位方法~\cite{SymCrash2014}
 \begin{figure}[h]
     \centering
     \includegraphics[width=1.0\textwidth]{./figure/Symcon.png}
@@ -204,6 +213,7 @@ Dandan Xu等人~\cite{Racing}设计并实现了一种反例强化学习技术，
 %%%%%%%%第3章 物联网嵌入式固件自动化根因分析%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\cleardoublepage
 \section{物联网嵌入式固件自动化根因分析}    %第3章
 \subsection{引言}                         %3.1节
 随着网络技术的飞速发展，物联网技术的应用已经渗透到各个产业领域。
@@ -531,6 +541,7 @@ Backward_taint_analysis(crash_site, instructions):
 %%%%%%%%第4章 实验与评估%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\cleardoublepage
 \section{实验与评估}        %第4章
 \subsection{实验环境}
 \subsection{实验测试样例分析}
@@ -540,7 +551,7 @@ Backward_taint_analysis(crash_site, instructions):
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%第5章 总结与展望%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
+\cleardoublepage
 \section{总结与展望}        %第5章
 \subsection{研究工作总结}
 \subsection{研究工作展望}

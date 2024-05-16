@@ -1420,6 +1420,89 @@
       \field{dateera}{ce}
       \keyw{IoT2021}
     \endentry
+    \entry{BENZENE}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=151cf1283a50cd355c3d972f73bc07fd}{%
+           family={Park},
+           familyi={P\bibinitperiod},
+           given={Younggi},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=8138f43577b70ac1e8fe26ab755ebb51}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Hwiwon},
+           giveni={H\bibinitperiod}}}%
+        {{hash=08a7e36ae0ff7d320c8b6788b2972d17}{%
+           family={Jung},
+           familyi={J\bibinitperiod},
+           given={Jinho},
+           giveni={J\bibinitperiod}}}%
+        {{hash=99792650c366ba83030391efab69a2f2}{%
+           family={Koo},
+           familyi={K\bibinitperiod},
+           given={Hyungjoon},
+           giveni={H\bibinitperiod}}}%
+        {{hash=9cf65b44e8ca6c9dd630dd3ea66fbfe7}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Huy\bibnamedelima Kang},
+           giveni={H\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \name{namea}{5}{}{%
+        {{hash=151cf1283a50cd355c3d972f73bc07fd}{%
+           family={Park},
+           familyi={P\bibinitperiod},
+           given={Younggi},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=8138f43577b70ac1e8fe26ab755ebb51}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Hwiwon},
+           giveni={H\bibinitperiod}}}%
+        {{hash=08a7e36ae0ff7d320c8b6788b2972d17}{%
+           family={Jung},
+           familyi={J\bibinitperiod},
+           given={Jinho},
+           giveni={J\bibinitperiod}}}%
+        {{hash=99792650c366ba83030391efab69a2f2}{%
+           family={Koo},
+           familyi={K\bibinitperiod},
+           given={Hyungjoon},
+           giveni={H\bibinitperiod}}}%
+        {{hash=9cf65b44e8ca6c9dd630dd3ea66fbfe7}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Huy\bibnamedelima Kang},
+           giveni={H\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{e09b4cf8343df6909301f5cf84cc96d7}
+      \strng{fullhash}{af08c93675999a9caf0a0a09e5108f25}
+      \strng{fullhashraw}{af08c93675999a9caf0a0a09e5108f25}
+      \strng{bibnamehash}{e84ac864c403684eb967d358a6e73a2f}
+      \strng{authorbibnamehash}{e84ac864c403684eb967d358a6e73a2f}
+      \strng{authornamehash}{e09b4cf8343df6909301f5cf84cc96d7}
+      \strng{authorfullhash}{af08c93675999a9caf0a0a09e5108f25}
+      \strng{authorfullhashraw}{af08c93675999a9caf0a0a09e5108f25}
+      \strng{nameabibnamehash}{e84ac864c403684eb967d358a6e73a2f}
+      \strng{nameanamehash}{e09b4cf8343df6909301f5cf84cc96d7}
+      \strng{nameafullhash}{af08c93675999a9caf0a0a09e5108f25}
+      \strng{nameafullhashraw}{af08c93675999a9caf0a0a09e5108f25}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{languageid}{english}
+      \field{lansortorder}{4}
+      \field{title}{BENZENE: A Practical Root Cause Analysis System with an Under-Constrained State Mutation}
+      \field{usera}{J}
+      \field{userd}{english}
+      \field{userf}{english}
+      \keyw{BENZENE}
+    \endentry
     \entry{Test2010}{article}{}{}
       \name{author}{6}{}{%
         {{hash=12e3e78a8e7ae2f93bb1ccaaeba5dd78}{%
