@@ -10,29 +10,36 @@
 \contentsline {subsection}{\numberline {1.6}本章小结}{5}{subsection.1.0.1.6}%
 \contentsline {section}{\numberline {2}自动化根因分析相关技术研究}{5}{section.1.0.2}%
 \contentsline {subsection}{\numberline {2.1}概述}{5}{subsection.1.0.2.1}%
-\contentsline {subsection}{\numberline {2.2}自动化根因分析相关方法}{6}{subsection.1.0.2.2}%
-\contentsline {subsubsection}{\numberline {2.2.1}基于频谱的自动化根因分析方法}{6}{subsubsection.1.0.2.2.1}%
-\contentsline {subsubsection}{\numberline {2.2.2}基于事后的故障定位方法}{7}{subsubsection.1.0.2.2.2}%
-\contentsline {subsubsection}{\numberline {2.2.3}基于机器学习的自动化根因分析方法}{8}{subsubsection.1.0.2.2.3}%
+\contentsline {subsection}{\numberline {2.2}自动化根因分析相关方法}{7}{subsection.1.0.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}基于频谱的自动化根因分析方法}{7}{subsubsection.1.0.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}基于事后的故障定位方法}{8}{subsubsection.1.0.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.3}基于机器学习的自动化根因分析方法}{9}{subsubsection.1.0.2.2.3}%
 \contentsline {subsection}{\numberline {2.3}其他相关研究}{9}{subsection.1.0.2.3}%
 \contentsline {subsubsection}{\numberline {2.3.1}逆向执行}{9}{subsubsection.1.0.2.3.1}%
-\contentsline {subsubsection}{\numberline {2.3.2}使用——定义链}{9}{subsubsection.1.0.2.3.2}%
-\contentsline {subsection}{\numberline {2.4}本章小结}{9}{subsection.1.0.2.4}%
+\contentsline {subsubsection}{\numberline {2.3.2}使用——定义链}{10}{subsubsection.1.0.2.3.2}%
+\contentsline {subsection}{\numberline {2.4}本章小结}{10}{subsection.1.0.2.4}%
 \contentsline {section}{\numberline {3}物联网嵌入式固件自动化根因分析}{10}{section.1.0.3}%
 \contentsline {subsection}{\numberline {3.1}引言}{10}{subsection.1.0.3.1}%
-\contentsline {subsection}{\numberline {3.2}本文研究的问题定义}{10}{subsection.1.0.3.2}%
-\contentsline {subsubsection}{\numberline {3.2.1}本文关注的根本原因}{10}{subsubsection.1.0.3.2.1}%
-\contentsline {subsubsection}{\numberline {3.2.2}内存别名问题}{11}{subsubsection.1.0.3.2.2}%
-\contentsline {subsection}{\numberline {3.3}物联网嵌入式固件自动化根因分析方法设计}{12}{subsection.1.0.3.3}%
+\contentsline {subsection}{\numberline {3.2}本文研究的问题定义}{11}{subsection.1.0.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}本文关注的根本原因}{11}{subsubsection.1.0.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}内存别名问题}{12}{subsubsection.1.0.3.2.2}%
+\contentsline {subsection}{\numberline {3.3}物联网嵌入式固件自动化根因分析方法设计}{13}{subsection.1.0.3.3}%
 \contentsline {subsubsection}{\numberline {3.3.1}高效运行时信息记录}{13}{subsubsection.1.0.3.3.1}%
-\contentsline {subsubsection}{\numberline {3.3.2}历史信息指导的逆向执行}{14}{subsubsection.1.0.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.3.2}历史信息指导的逆向执行}{15}{subsubsection.1.0.3.3.2}%
 \contentsline {subsubsection}{\numberline {3.3.3}根因分析}{18}{subsubsection.1.0.3.3.3}%
 \contentsline {subsection}{\numberline {3.4}整体系统实现}{20}{subsection.1.0.3.4}%
 \contentsline {subsection}{\numberline {3.5}本章小结}{21}{subsection.1.0.3.5}%
-\contentsline {section}{\numberline {4}实验与评估}{21}{section.1.0.4}%
-\contentsline {section}{\numberline {5}总结与展望}{21}{section.1.0.5}%
-\contentsline {section}{参考文献}{22}{section*.6}%
-\contentsline {section}{作者简历}{24}{section*.7}%
-\contentsline {section}{本科生毕业论文（设计）任务书}{25}{section*.8}%
-\contentsline {section}{本科生毕业论文（设计）考核}{26}{section*.9}%
-\contentsline {part}{第二部分\hspace {1em}毕业论文开题报告}{27}{part.2}%
+\contentsline {section}{\numberline {4}实验与评估}{22}{section.1.0.4}%
+\contentsline {subsection}{\numberline {4.1}实验环境}{22}{subsection.1.0.4.1}%
+\contentsline {subsection}{\numberline {4.2}实验测试样例分析}{22}{subsection.1.0.4.2}%
+\contentsline {subsection}{\numberline {4.3}实验方案}{22}{subsection.1.0.4.3}%
+\contentsline {subsection}{\numberline {4.4}实验结果与分析}{22}{subsection.1.0.4.4}%
+\contentsline {subsection}{\numberline {4.5}本章小结}{22}{subsection.1.0.4.5}%
+\contentsline {section}{\numberline {5}总结与展望}{22}{section.1.0.5}%
+\contentsline {subsection}{\numberline {5.1}研究工作总结}{22}{subsection.1.0.5.1}%
+\contentsline {subsection}{\numberline {5.2}研究工作展望}{22}{subsection.1.0.5.2}%
+\contentsline {section}{参考文献}{23}{section*.7}%
+\contentsline {section}{作者简历}{25}{section*.8}%
+\contentsline {section}{本科生毕业论文（设计）任务书}{26}{section*.9}%
+\contentsline {section}{本科生毕业论文（设计）考核}{27}{section*.10}%
+\contentsline {part}{第二部分\hspace {1em}毕业论文开题报告}{28}{part.2}%
