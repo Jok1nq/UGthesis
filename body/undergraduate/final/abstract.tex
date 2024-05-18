@@ -8,7 +8,7 @@
 然而，区别于传统环境下的自动化根因分析，物联网嵌入式固件运行在资源受限的环境下，且由于二进制固件代码被剥离了调试信息难以理解，
 目前针对物联网嵌入式固件设备，尚未存在有效的自动化根因分析方法。
 
-本文基于主流的自动化根因分析方法，设计并实现了首个物联网嵌入式固件自动化根因分析方法。
+本文设计并实现了首个物联网嵌入式固件自动化根因分析方法。
 针对嵌入式固件特点，我们设计了：（1）高效运行时信息记录组件，以收集必要信息；
 （2）历史信息指导的逆向执行组件，此阶段利用记录的数据解决内存别名问题，确保数据流分析的准确性；
 （3）根因分析组件，通过后向污点分析确定导致崩溃的具体原因，为进一步的调查提供指导。
@@ -16,7 +16,7 @@
 本文对Fuzzware框架提供的公共数据集进行测试，该数据集涵盖了广泛的崩溃行为。
 我们针对41个表现出崩溃行为的测试用例进行分析，
 并成功找到了5个测试样例的根因，且均位于我们报告的可疑指令中的前3名，且其中4个均位于第1名。
-实验和测试表明，本文提出的物联网嵌入式固件自动化根因分析方法填补了嵌入式固件根因分析领域的技术空缺，具有良好的能力
+实验和测试表明，本文提出的物联网嵌入式固件自动化根因分析方法填补了嵌入式固件根因分析领域的技术空缺，具有良好的能力。
 
 
 \textbf{关键词：}物联网嵌入式固件；漏洞挖掘；自动化根因分析；
@@ -28,7 +28,7 @@
 
 The application of IoT technology has permeated various industrial sectors such as defense, industry, home, healthcare, and transportation, with embedded firmware playing a crucial role. As IoT devices become more prevalent, the security issues of embedded firmware are increasingly receiving attention. However, unlike traditional environments, IoT embedded firmware operates in resource-constrained environments, and the binary firmware code is stripped of debugging information, making it difficult to understand. Currently, there is no effective automated root cause analysis method for IoT embedded firmware devices.
 
-Based on mainstream automated root cause analysis methods, this paper designs and implements the first automated root cause analysis method for IoT embedded firmware. Considering the characteristics of embedded firmware, we designed: (1) an efficient runtime information recording component to collect necessary information; (2) a reverse execution component guided by historical information, which uses recorded data to solve memory aliasing issues and ensure the accuracy of data flow analysis; (3) a root cause analysis component that determines the specific causes of crashes through backward taint analysis, providing guidance for further investigation.
+This paper designs and implements the first automated root cause analysis method for IoT embedded firmware. Considering the characteristics of embedded firmware, we designed: (1) an efficient runtime information recording component to collect necessary information; (2) a reverse execution component guided by historical information, which uses recorded data to solve memory aliasing issues and ensure the accuracy of data flow analysis; (3) a root cause analysis component that determines the specific causes of crashes through backward taint analysis, providing guidance for further investigation.
 
 We tested this method on the public dataset provided by the Fuzzware, which covers a wide range of crash behaviors. We analyzed 41 test cases that exhibited crash behaviors and successfully identified the root causes of 5 test cases, all of which were ranked among the top 3 suspicious instructions reported by our method, with 4 of them ranked in the top 1. Experiments and tests show that the automated root cause analysis method for IoT embedded firmware proposed in this paper fills a technological gap in the field of embedded firmware root cause analysis and demonstrates excellent capability.
 

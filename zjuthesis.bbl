@@ -32,9 +32,17 @@
       \field{title}{Cost of a Data Breach Report 2023}
       \field{usera}{J}
       \field{userd}{english}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://www.ibm.com/resources/downloads/cost-data-breach-report-2022-sponsored-ibm?mhsrc=ibmsearch_a&mhq=2022%20report
+      \endverb
+      \verb{url}
+      \verb https://www.ibm.com/resources/downloads/cost-data-breach-report-2022-sponsored-ibm?mhsrc=ibmsearch_a&mhq=2022%20report
+      \endverb
       \keyw{Cost}
     \endentry
-    \entry{HP-Wolf}{article}{}{}
+    \entry{HP-Wolf}{online}{}{}
       \list{language}{1}{%
         {english}%
       }
@@ -45,8 +53,16 @@
       \field{languageid}{english}
       \field{lansortorder}{4}
       \field{title}{HP-Wolf-Security-Threat-Insights-Report-Q1-2022}
-      \field{usera}{J}
+      \field{usera}{EB}
       \field{userd}{english}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \verb{urlraw}
+      \verb https://threatresearch.ext.hp.com/hp-wolf-security-threat-insights-report-q1-2022/
+      \endverb
+      \verb{url}
+      \verb https://threatresearch.ext.hp.com/hp-wolf-security-threat-insights-report-q1-2022/
+      \endverb
       \keyw{HP-Wolf}
     \endentry
     \entry{IoTFuzzer2018}{inproceedings}{}{}
